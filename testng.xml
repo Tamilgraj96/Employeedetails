@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="firstName" value="tamil"></parameter>
+      <parameter name="last" value="selvan"></parameter>
+      <parameter name="add" value="Chennai"></parameter>
+  <parameter name="email" value="Chennai26@gmail.com"></parameter>
+  <parameter name="phone" value="9876543210"></parameter>
+    <classes>
+      <class name="org.test.adactin.Automation"/>
+          </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

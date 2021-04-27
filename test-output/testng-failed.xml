@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="add" value="Chennai"/>
+    <parameter name="firstName" value="tamil"/>
+    <parameter name="last" value="selvan"/>
+    <parameter name="phone" value="9876543210"/>
+    <parameter name="email" value="Chennai26@gmail.com"/>
+    <classes>
+      <class name="org.test.adactin.Automation">
+        <methods>
+          <include name="insertValues" invocation-numbers="0"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.test.adactin.Automation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
